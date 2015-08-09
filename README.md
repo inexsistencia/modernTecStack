@@ -12,3 +12,76 @@
   ```
 * [EditorConfig](http://editorconfig.org/)
 * 
+
+Installation
+------------
+
+- Prerequisites (see _Technology Stack_):
+
+    * NodeJS with npm
+    * Bower
+    * Grunt
+    * on Windows machines maybe requires [Visual Studio 2013 WD](https://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop)
+
+- Install:
+    ```bash
+    cd ~/code
+    git clone 
+    cd youfolderproyect
+    git checkout develop
+    bower install
+    npm install
+    ```
+
+Run server
+----------
+
+```bash
+grunt serve
+```
+
+- Your default web browser should have opened [http://localhost:9002/](http://localhost:9002/)
+
+Build
+-----
+
+```bash
+grunt build
+```
+
+That will create all the build files under the `dist` directory.
+If besides creating the builds you want to start a local server, instead run:
+
+```bash
+grunt serve:build
+```
+
+Technology Stack
+---------------
+- Package Manager
+  - [NPM](http://npmjs.org "NPM")
+  - [Grunt](http://gruntjs.com "Grunt") to install by comand line
+  
+    ```bash
+    npm install grunt
+    ```
+  - [Bower](http://bower.io "Bower")
+  
+    ```bash
+    npm install -g bower
+    ```
+- [Sass](http://sass-lang.com "Sass")
+- [JQuery](http://jquery.com "JQuery")
+- [Angular](https://angularjs.org "Angular")
+
+
+Naming & Selectors
+------------------
+- Use BEM methodology [https://en.bem.info/method/](https://en.bem.info/method/)
+- All IDs and classes should be prefaced with `proyectsufij_classname`, short for "prname
+- "
+- All JS target ids and classes should be prefaced with `fol_JS_classname`, **CSS selectors should not be used as JS targets**
+- Classes only for CSS
+- As flat a CSS structure as possible (avoid nesting, specificity wars at all costs)
+- Please do not use !important
+- Mobile first - Use min-width media queries are extremely helpful when it comes to coding responsive websites because it reduces code complexity.
