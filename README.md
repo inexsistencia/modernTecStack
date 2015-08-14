@@ -59,6 +59,7 @@ grunt serve:build
 Technology Stack
 ---------------
 - Package Manager
+  - [tutorial] (http://www.saltycrane.com/blog/2014/11/how-install-grunt-ubuntu-1404/)
   - [NPM](http://npmjs.org "NPM")
   - [Grunt](http://gruntjs.com "Grunt") to install by comand line
   
