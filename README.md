@@ -72,6 +72,10 @@ Technology Stack
     npm install -g bower
     ```
 - [Sass](http://sass-lang.com "Sass")
+  
+  ```bash
+  npm install node-sass 
+  ```
 - [JQuery](http://jquery.com "JQuery")
 - [Angular](https://angularjs.org "Angular")
 
