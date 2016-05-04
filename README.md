@@ -93,3 +93,31 @@ Naming & Selectors
 - As flat a CSS structure as possible (avoid nesting, specificity wars at all costs)
 - Please do not use !important
 - Mobile first - Use min-width media queries are extremely helpful when it comes to coding responsive websites because it reduces code complexity.
+
+
+configuration of sublimetext Material-theme
+```JSON
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"overlay_scroll_bars": "enabled",
+	"material_theme_small_tab"  : true ,
+	"material_theme_small_statusbar" : true ,
+	"material_theme_compact_sidebar" : true ,
+	"material_theme_contrast_mode"            : true ,
+	"theme": "Material-Theme-Darker.sublime-theme"
+}
+```
